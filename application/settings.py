@@ -43,6 +43,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'debug_toolbar',
     'core.apps.CoreConfig',
+    'chat',
+    'friends',
+    'like',
+    'message',
+    'news',
+    'post',
+    'query_friend'
 ]
 
 MIDDLEWARE = [
